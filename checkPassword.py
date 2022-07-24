@@ -1,3 +1,4 @@
+import re
 def CheckPassword(s : str):
     if len(s) < 8:
         print("En az 8 karakter gerekmektedir.")
